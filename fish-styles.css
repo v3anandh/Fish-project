@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #da9797; /* Light background color */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Header */
+header {
+    background-color: #2c3e50; /* Dark background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Fish List Section */
+.fish-list {
+    padding: 40px 0;
+    background-color: #ffffff; /* White background for fish section */
+}
+
+.fish-list h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.fish-item {
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ecf0f1; /* Light gray background for each fish item */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fish-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fish-item h3 {
+    margin: 15px 0;
+    font-size: 1.6rem;
+}
+
+.fish-item p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.fish-item button {
+    background-color: #2c3e50; /* Dark button for contrast */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.fish-item button:hover {
+    background-color: #34495e;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
